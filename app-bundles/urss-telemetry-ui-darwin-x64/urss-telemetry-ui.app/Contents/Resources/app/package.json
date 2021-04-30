@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/URSolarSplash/Telemetry-UI#readme",
   "devDependencies": {
-    "electron": "^3.0.11"
+    "electron": "^9.4.0"
   },
   "dependencies": {
     "chart.js": "^2.7.2",
