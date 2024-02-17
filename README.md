@@ -1,5 +1,7 @@
 # Telemetry UI
 
+a quick rewrite in [wails](https://wails.io/).
+
 ## Summary
 The Rochester Solar Splash team has a need to collect extensive telemetry from sensors around our boat. Previously, we lacked a single system which could collect and log all the data from the boat in a single place for analysis.
 
@@ -17,6 +19,8 @@ The SDK also includes the ability to poll data, allowing node devices to act bas
 
 ## How to Use
 
-## Screenshots
+- Requires go 1.18+.
+- Install wails: `go install github.com/wailsapp/wails/v2/cmd/wails@latest`
+- Run dev server with `wails dev`
+- Build with `wails build`
 
-## UI System Design
