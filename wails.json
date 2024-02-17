@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "URSS Telemetry Monitor",
+  "outputfilename": "URSS Telemetry Monitor",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Leon Zong & Chris Dalke & Andrew Gutierrez",
+    "email": "zongleon03@gmail.com"
+  }
+}
