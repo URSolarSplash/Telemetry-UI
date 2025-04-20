@@ -1,0 +1,31 @@
+{
+  "name": "urss-telemetry-ui",
+  "version": "1.0.0",
+  "description": "The Telemetry UI for Rochester Solar Splash.",
+  "main": "index.html",
+  "type":"module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/URSolarSplash/Telemetry-UI.git"
+  },
+  "author": "Leon Zong & Chris Dalke & Andrew Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/URSolarSplash/Telemetry-UI/issues"
+  },
+  "homepage": "https://github.com/URSolarSplash/Telemetry-UI#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "chartjs": "^0.3.24",
+    "chartjs-adapter-luxon": "^1.3.1",
+    "chartjs-plugin-streaming": "^2.0.0",
+    "jquery": "latest",
+    "vite": "^5.1.3"
+  }
+}
